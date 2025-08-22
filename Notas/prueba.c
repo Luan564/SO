@@ -64,12 +64,14 @@ void remover(st **cabecera, int valor){
             eliminar(aux);
             return;
         }
+        //No se encuentra en la cabecera
         while(aux->id != valor){
             if(aux->sig != NULL){
                 anterior = aux;
                 aux = aux->sig;
                 continue;
             }
+            //No existe el nodo
             else{
                 printf("No se ha encontrado el elemento dentro de la lista!\n");
                 return;
