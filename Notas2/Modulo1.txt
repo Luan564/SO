@@ -1,0 +1,21 @@
+Ya no imprimiremos todo solo la ultima linea, utilizaremos la libreria "ncurses"
+investigar (operaciones básicas):
+    1.-curses.h                 //libreria
+    2.-unistd.h                 //libreria
+    3.-WINDOW *window = NULL        //trabajar con una ventana
+        window = initscr()          //inicializar una ventana
+        mvprintw(x,y,"texto")       //Coordenas donde queremos que imprima
+        refresh()                   //IMPORTANTE para poder visualizar
+        endwind()                   //IMPORTANTE finalizar la ventana
+    4.- ¿Como compilar con ncurses?
+    
+    ID      PC      Ax      Bx      Cx      Dx      Proceso     IMPORTANTE      Status
+    0       2       7       0       0       0        a.asm       MOV Ax,7      Correcto
+
+    FIN DEL MODULO
+
+
+
+Entregar en fecha: 19/09/25
+    1.- Documentación (Compilar, Ejecutar, anotación, como funciona el código, para que es cada función)
+    2.- Código fuente
