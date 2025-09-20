@@ -1,0 +1,22 @@
+Realizar una Agenda de Tareas haciendo uso de la memoria dinamica.
+    Acciones a realizar:
+    Menú
+    1. Agregar  (Crea y agrega una tarea)                           //si
+    2. Editar   (Se podra editar la descripción y el horario)
+    3. Finalizar (Eliminar con Free)                                
+    4. Listar (imprimir)                                            //si
+    5. Salir (Finalizar la ejecución del programa)
+
+    Tarea:
+        id -> consecutivo iniciando por el 1
+        descripción -> descripción de la tarea a realizar (150 caracteres MAX)
+        horario -> 1-24 hrs (Se ordenarán de acuerdo al horario)
+
+
+        9 hrs -> 10 hrs -> 18 hrs -> NULL
+        agrega tarea (16 hrs)
+        9 hrs -> 10 hrs -> 16 hrs -> 18 hrs -> NULL
+        Finalizar tarea (10 hrs)    //elimina tareas con free()
+        9 hrs -> 16 hrs -> 18 hrs -> NULL
+
+
